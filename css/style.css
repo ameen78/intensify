@@ -1,0 +1,206 @@
+*/{
+    padding: 0px;
+    margin: 0px;
+}
+header.voc {
+     padding: 50px;
+    margin: 0px auto;
+    background-image: url("file:///C:/Users/hi/Desktop/abcd/web-page/images/banner.jpg");
+    background-repeat: no-repeat;
+     background-size:  cover;
+     background-position: center;
+     text-align: center;
+     background-origin: border-box;
+}
+button{
+    background-color: rgb(218, 67, 12);
+    height: 2rem;
+    width: 15rem;
+    border-radius: 0.5rem;
+    color: rgb(216, 210, 210);
+}
+ .voc h1{
+     color: rgb(29, 201, 201);
+ }
+ /*voc*/
+  @media screen and(max-width:1024px)
+  header.voc {
+        text-align:center;
+
+    }
+    .button{
+        width: 10rem;
+    }
+    @media screen and (max-width:700px)
+    .voc{
+          text-align:center;
+          background-size:cover;
+         
+    }
+    .p{
+        font-style: italic;
+    }
+
+    .button{
+          width: 8rem;
+    }
+.v1{
+    padding: 50px;
+    
+    text-align: center;
+    float: left ;
+  
+    
+}
+.v1 h1{
+    color:rgb(9, 202, 202);
+}
+@media screen and(max-width:1024)
+.v1{
+    text-align:center;
+    float: none;
+}
+ 
+
+.xox{
+    border-radius: 100%;
+}    
+ @media screen and(max-width:1024)
+ .xox{
+     margin:50px;
+     float:none;
+     text-align:center;
+ } 
+    
+    
+    
+
+ .v2{
+      padding:50px;
+      text-align: center;
+    float: right;
+    background-color: white;
+
+ }
+  .v2 h1{
+    color:rgb(9, 202, 202);
+  }  
+
+section.moc{
+    background-color: rgb(211, 62, 8);
+     width: 100%;
+    text-align: center; 
+     
+}
+.moc h1{
+     color: rgb(228, 226, 226);
+     font-family: initial;
+     font-size: 30px;
+}
+.moc p{
+   font-style: italic;    
+    font-size: 20px;
+    color: rgb(226, 223, 223);
+}
+.moc h2{
+    color: rgb(209, 202, 202);
+}
+.moc span{
+    color: rgb(209, 201, 201);
+}
+.doc{
+     text-align: center;
+}
+.doc h1{
+    color: rgb(9, 221, 221);
+}
+.b1{
+    float: left;
+}
+.b2{
+    float: left;
+    padding-left: 10%;
+}
+.b3{
+    float: inline-end;
+}
+
+footer.wox{
+    padding: 50px;
+    background-color: rgb(69, 172, 212);
+    text-align: center;
+    float: none ;
+}
+.wox h1{
+    color: rgb(231, 225, 225);
+    font-style: inherit;
+    font-size: 20px;
+    font-weight: bold;
+    float: none;
+    
+}
+.wox div{
+     color: rgb(212, 208, 208);
+     font-style: italic;
+     font-size: initial;
+     padding-top: 30px;
+     float: none ;
+}
+
+
+    
+    
+    
+    
+
+    
+    
+
+ 
+
+   
+
+    
+
+
+     
+    
+
+
+
+
+
+ 
+    
+
+    
+    
+ 
+
+    
+    
+       
+
+
+
+
+
+ 
+     
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+     
