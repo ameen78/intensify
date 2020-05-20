@@ -1,31 +1,42 @@
- .logo{
+ body{
+     background-color: #fff;
+ }.logo{
      text-align: center;
      color: #f54a0cf5;
      background-color: #f3f3f3;
-     margin-left:25% ;
-     margin-right: 25%;
+      width: 210px;
+      height: 40px;
+      align-items: center;
+      background-size: cover;
  }    
-  #banner{
+  .banner{
       text-align: center;
       background-image: url(../images/banner.jpg);
-      background-position: 200rem,200rem;
+      align-items: center;
       background-repeat: no-repeat;
      background-position: center center;
-      background-size: 600px,2200px;
-      margin: 30px, 30px, 30px, 30px;
+      background-size: cover;
+     max-width: 70%;
+        
   }
-  #banner h1{
-       color: #0df1f1;
+  .banner h1{
+       color: #25a2c3;
+       padding-top: 50px;
+       line-height: 25px;
+       font-family: "Montserrat", sans-serif;
+       font-weight: 700;
   }
-  #banner p{
+     
+  
+  .banner p{
       display: block;
       line-height: 15px;
       letter-spacing: normal;
       word-spacing: 5px;
       font-style: oblique;
       font-variant: initial ;
-      font-family: initial ;
-      
+      font-family:'Courier New', Courier, monospace ;
+      color: #bbb;
       font-weight: lighter;
   }
   button{
@@ -36,157 +47,241 @@
         color: #dddbdb;
         font-weight: bolder;
         border-radius: 0.5rem;
-  }
-  /*nav*/
-   nav.v1{
-       text-align: center;
-    }    
-   .v1 h1{
-       color: #0df1f1;
-       font-family: 'Times New Roman', Times, serif;
+        margin-bottom: 20%;
     }
-    .v1 p{
-        font-size: 21px;
+        
+       
+ 
+  /*nav*/
+   .containt1{
+       
+       width: 360px;
+       background-size: cover;
+    }    
+   .containt1 h1{
+       color: #25a2c3;
+       font-family: "Montserrat", sans-serif;
+       font-weight: 700;
+       font-size: 100%;
+       text-align: center;
+       line-height: 40px;
+       padding-right: 40%;
+       
+    }
+    .containt1 p{
+        font-size: 17px;
         font-style: oblique;
-        font-family: initial;
+        font-family:"Open Sans", Arial, Helvetica, sans-serif;  ;
         font-variant: initial; 
-        font-weight: lighter;  
+        font-weight: lighter; 
+        letter-spacing: 0.05px;
+        line-height: 15px;
+        color: #bbb; 
+        margin-right: 50px;
+        word-spacing: 0.02px;
+        content: icon;
+        padding-right: 79px;
     }
     /*img*/
     .x1{
+        width: 60%;
         border-radius: 100%;
     }
       /*nav*/
-      nav.v2{
+      .containt2{
          text-align: center;
       }
-      .v2 h1{
-          color: #0df1f1;
-          font-family: 'Times New Roman', Times, serif;
+      .containt2 h1{
+        color: #25a2c3;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 100%;
+        text-align: center;
+        line-height: 40px;
+        padding-right: 40%;
       }
-      .v2 p{
-        font-size: 21px;
+      .containt2 p{
+        font-size: 17px;
         font-style: oblique;
-        font-family: initial;
+        font-family:"Open Sans", Arial, Helvetica, sans-serif;  ;
         font-variant: initial; 
-        font-weight: lighter;
+        font-weight: lighter; 
+        letter-spacing: 0.5px;
+        line-height: 15px;
+        color: #bbb; 
+        margin-right: 50px;
+        word-spacing: 5px;
+        content: icon;
+       padding-right: 40px;
       }
       /*section*/
-      section.m1{
+      .author{
            text-align: center;
            background-color: #f7632d;
-           color: #f3f3f3;
-           margin-left:33% ;
-           margin-right: 33%;
+          
+          
       }
-      .m1 h1{
+      .author h1{
           font-style: normal;
           font-weight: bolder;
-          font-size: 35px;
+          font-size: 21px;
+          font-family:"Open Sans", Arial, Helvetica, sans-serif; 
+          padding-right: 45px;
+          color: #f3f3f3;
+          line-height: 100%;
+          padding-top: 10%;
       }
-      .m1 p{
+      .author p{
         font-size: 21px;
-        font-style: oblique;
-        font-family: initial;
+        font-style: italic;
+        font-family: "Montserrat", sans-serif;
         font-variant: initial; 
-        font-weight: lighter;
+        font-weight: 10%;
+        color: #fff;
+        margin-right: 25%;
+        padding-top: 10%;
       }
-      .m1 h2{
+      .author h2{
             font-size: 25px;
             font-style: normal;
+            color: #f3f3f3;
+            padding-right: 30%;
       }
-      .m1 span{
+      .author span{
            font-size: 18px;
            margin: 15px;
+           color: #f3f3f3;
+           padding-right: 30%;
       }
        /*artical*/
-       article.s1{
+       
+
+       
+       .division1{
+             text-align: center;
+             border: 0.5px,ridge;
+             box-sizing: border-box;
+            
+       }
+       .division1 h1{
+        color: #25a2c3;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 100%;
+        text-align: center;
+        line-height: 40px;
+        padding-right: 40%;
+       }
+       .division1 p{
            text-align: center;
+        font-size: 17px;
+        font-style: oblique;
+        font-family:"Open Sans", Arial, Helvetica, sans-serif;  ;
+        font-weight: lighter; 
+        color: #bbb; 
+        padding-right: 40%;
        }
-       div.b1{
-            border:0.5px ridge;
-            box-sizing: content-box;
-            margin-left: 453px;
-            margin-right: 452px;
-            margin-bottom: 40px;
-            margin-top: 45px;
-            border-radius: 0.5rem;
+       .pic1{
+        width: 70%;
+        padding-right: 40%;
+        padding-top: 10%;
+        height: 20%;
+    }
+        .division2{
+            text-align: center;
+             border: 0.5px,ridge;
+             box-sizing: border-box;
+     
              
-       }
-       .b1 h1{
-        color: #0df1f1;
-        font-family: 'Times New Roman', Times, serif;
-       }
-       .b1 p{
-        font-size: 22px;
-        font-style: oblique;
-        font-family: initial;
-        font-variant: initial; 
-        font-weight: lighter;
-       }
-       div.b2{
-           
-           border:0.5px ridge;
-            box-sizing: content-box;
-            margin-left: 453px;
-            margin-right: 452px;
-            margin-bottom: 40px;
-            margin-top: 45px;
-            border-radius: 0.5rem;
-       }
-       .b2 h1{
-        color: #0df1f1;
-        font-family: 'Times New Roman', Times, serif;
-       }
-       .b2 p{
-        font-size: 22px;
-        font-style: oblique;
-        font-family: initial;
-        font-variant: initial; 
-        font-weight: lighter;
-       }
-       div.b3{
-        border:0.5px ridge;
-        box-sizing: content-box;
-        margin-left: 453px;
-        margin-right: 452px;
-        margin-bottom: 40px;
-        margin-top: 45px;
-        border-radius: 0.5rem;
-       }
-       .b3 h1{
-        color: #0df1f1;
-        font-family: 'Times New Roman', Times, serif;
-       }
-       .b3 p{
-        font-size: 22px;
-        font-style: oblique;
-        font-family: initial;
-        font-variant: initial; 
-        font-weight: lighter;
-       }
+        }
+        .division2 h1{
+            color: #25a2c3;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 700;
+            font-size: 100%;
+            text-align: center;
+            line-height: 40px;
+            padding-right: 40%;
+        }
+        .division2 p{
+            text-align: center;
+            font-size: 17px;
+            font-style: oblique;
+            font-family:"Open Sans", Arial, Helvetica, sans-serif;  ;
+            font-weight: lighter; 
+            color: #bbb; 
+         word-spacing: 30%;
+            padding-right: 40%;  
+                
+        }
+        .pic2{
+            width: 70%;
+            padding-right: 40%;
+            padding-top: 10%;
+            height: 20%;
+        }
+        .division3{
+            text-align: center;
+            border: 0.5px,ridge;
+            box-sizing: border-box;
+        }   
+        
+        .division3 h1{
+            color: #25a2c3;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 700;
+            font-size: 100%;
+            text-align: center;
+            line-height: 40px;
+            padding-right: 40%;
+        }
+        .division3 p{
+            text-align: center;
+            font-size: 17px;
+            font-style: oblique;
+            font-family:"Open Sans", Arial, Helvetica, sans-serif;  ;
+            font-weight: lighter; 
+            color: #bbb; 
+         word-spacing: 30%;
+            padding-right: 40%;  
+            padding-bottom: 70%;
+        }
+         .pic3{
+            width: 70%;
+            padding-right: 40%;
+            padding-top: 10%;
+            height: 20%;
+         }
+       
        /*footer*/
-       .w1{
+       .end{
            text-align: center;
            background-color: #3db3e2;
            color: #f3f3f3; 
-           margin-left:33% ;
-           margin-right: 33%;
+           padding-right: 30%;
            padding-bottom: 20%;
-           padding-top: 20px;
+         
        }
-       .w1 h1{
+       .end h1{
         font-style: normal;
         font-weight: bolder;
-        font-size: 35px;
+        font-size: 21px;
+        font-family:"Open Sans", Arial, Helvetica, sans-serif; 
+        padding-right: 45px;
+        color: #f3f3f3;
+        line-height: 100%;
+        padding-top: 10%;
+        padding-left: 10%;
+        text-align: center;
        }
-       .w1 p{
+       .end p{
             font-size: 20px;
             padding-top: 20px;
-           
+           padding-right: 30%;
        }    
         .icon {
         color: #f6755e;
+       
     }
 
      a {
@@ -196,16 +291,17 @@
 
      ul li {
         padding: 0 2em;
+  
     }
      .copyright {
         display: inline-block;
         color: #a7d9e7;
         font-size: 0.75em;
         margin: 0 0 2em 0;
-        padding: 0;
+        padding-right: 10%;
         text-align: center;
         border-top: 1px solid rgba(255, 255, 255, 0.25);
-        padding: 2em 10em;
+        
        
       
         
@@ -267,4 +363,4 @@
 
  
 
-     
+    
