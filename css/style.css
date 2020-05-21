@@ -27,7 +27,6 @@ body {
 .banner h1 {
   color: #25a2c3;
   padding-top: 25px;
-  font-family: "Montserrat", sans-serif;
   text-align: center;
   align-items: center;
 }
@@ -91,9 +90,7 @@ button {
 
 .author h1 {
   font-style: normal;
-
   font-size: 21px;
-  font-family: "Open Sans", Arial, Helvetica, sans-serif;
   color: #f3f3f3;
   padding-top: 10%;
   text-align: center;
@@ -185,34 +182,18 @@ button {
 
 /*footer*/
 .end {
-  text-align: center;
   background-color: #3db3e2;
   color: #f3f3f3;
-  padding-right: 30%;
-  padding-bottom: 20%;
+  margin-top: 14%;
 }
 
 .end h1 {
   font-style: normal;
-  font-weight: bolder;
   font-size: 21px;
-  font-family: "Open Sans", Arial, Helvetica, sans-serif;
-  padding-right: 45px;
-  color: #f3f3f3;
   line-height: 100%;
   padding-top: 10%;
-  padding-left: 10%;
   text-align: center;
-}
-
-.end p {
-  font-size: 20px;
-  padding-top: 20px;
-  padding-right: 30%;
-}
-
-.icon {
-  color: #f6755e;
+  padding-bottom: 15px;
 }
 
 a {
@@ -222,6 +203,9 @@ a {
 
 ul li {
   padding: 0 2em;
+  text-align: center;
+  line-height: 190%;
+  padding-bottom: 10px;
 }
 
 .copyright {
@@ -229,7 +213,7 @@ ul li {
   color: #a7d9e7;
   font-size: 0.75em;
   margin: 0 0 2em 0;
-  padding-right: 10%;
   text-align: center;
   border-top: 1px solid rgba(255, 255, 255, 0.25);
+  padding-top: 20px;
 }
