@@ -66,7 +66,10 @@ button {
   margin-top: 16px;
 }
 .phone {
-  width: 90%;
+  width: 85%;
+  margin-left: 20px;
+  margin-top: 40px;
+  margin-bottom: 20px;
   border-radius: 100%;
 }
 
@@ -74,6 +77,7 @@ button {
   color: #25a2c3;
   font-size: 21px;
   text-align: center;
+  margin-top: 30px;
 }
 
 .containt2 p {
@@ -86,6 +90,7 @@ button {
 
 .author {
   background-color: #f7632d;
+  margin-top: 65px;
 }
 
 .author h1 {
@@ -112,10 +117,11 @@ button {
   padding-top: 40px;
 }
 
-.author span {
+.author div {
   font-size: 13px;
   color: #f3f3f3;
   padding-left: 120px;
+  padding-bottom: 30px;
 }
 
 /*division2*/
@@ -124,6 +130,7 @@ button {
   color: #25a2c3;
   font-size: 21px;
   text-align: center;
+  padding-top: 5%;
 }
 
 .division1 p {
@@ -132,6 +139,7 @@ button {
   font-style: oblique;
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   color: #bbb;
+  padding-top: 8%;
 }
 
 .pic1 {
@@ -144,6 +152,7 @@ button {
   color: #25a2c3;
   font-size: 21px;
   text-align: center;
+  padding-top: 5%;
 }
 
 .division2 p {
@@ -152,6 +161,7 @@ button {
   font-style: oblique;
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   color: #bbb;
+  padding-top: 8%;
 }
 
 .pic2 {
@@ -164,6 +174,7 @@ button {
   color: #25a2c3;
   font-size: 21px;
   text-align: center;
+  padding-top: 5%;
 }
 
 .division3 p {
@@ -172,6 +183,7 @@ button {
   font-style: oblique;
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   color: #bbb;
+  padding-top: 8%;
 }
 
 .pic3 {
@@ -216,4 +228,5 @@ ul li {
   text-align: center;
   border-top: 1px solid rgba(255, 255, 255, 0.25);
   padding-top: 20px;
+  padding-bottom: 20px;
 }
