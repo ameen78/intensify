@@ -14,8 +14,9 @@
 }
 
 .banner {
-    background-image: url(/images/banner.jpg);
-    background-size: contain;
+    background: url(/images/banner.jpg) no-repeat;
+    background-size: cover;
+    background-position: center top;
     margin-top: 10px;
     text-align: center;
     align-items: center;
@@ -46,6 +47,7 @@ button {
     font-size: 16px;
     border-radius: 10px;
     margin-bottom: 35px;
+    border: none;
 }
 
 
@@ -70,7 +72,7 @@ button {
 
 /*img*/
 .x1 {
-    width: 60%;
+    /* width: 60%; */
     border-radius: 100%;
 }
 
@@ -85,8 +87,8 @@ button {
     font-weight: 700;
     font-size: 100%;
     text-align: center;
-    line-height: 40px;
-    padding-right: 40%;
+    /* line-height: 40px; */
+
 }
 
 .containt2 p {
