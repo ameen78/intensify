@@ -92,7 +92,7 @@ button {
   padding-left: 20px;
   padding-right: 20px;
 }
-/*section*/
+/*division2*/
 
 .author {
   background-color: #f7632d;
@@ -132,7 +132,7 @@ button {
   padding-bottom: 30px;
 }
 
-/*division2*/
+/*division3*/
 
 .division1 h1 {
   color: #25a2c3;
@@ -243,5 +243,5 @@ ul li {
   border-top: 1px solid rgba(255, 255, 255, 0.25);
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-left: 20px;
+  padding-left: 23px;
 }
