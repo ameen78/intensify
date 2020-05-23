@@ -7,7 +7,7 @@
 body {
   font-family: "montserrat", sans-serif;
 }
-
+/*logo*/
 .logo {
   text-align: center;
   color: red;
@@ -16,7 +16,7 @@ body {
   font-size: 35px;
   font-family: cursive;
 }
-
+/*banner*/
 .banner {
   background: url(/images/banner.jpg) no-repeat;
   background-size: cover;
@@ -40,7 +40,7 @@ body {
   padding-right: 18px;
   padding-left: 16px;
 }
-
+/*button*/
 button {
   width: 200px;
   height: 45px;
@@ -56,14 +56,14 @@ button {
 
 /*division*/
 
-.containt1 h1 {
+.wrapper1 h1 {
   margin-top: 30px;
   color: #25a2c3;
   font-size: 21px;
   text-align: center;
 }
 
-.containt1 p {
+.wrapper1 p {
   text-align: center;
   font-size: 17px;
   color: #bbb;
@@ -80,14 +80,14 @@ button {
   border-radius: 100%;
 }
 
-.containt2 h1 {
+.wrapper2 h1 {
   color: #25a2c3;
   font-size: 21px;
   text-align: center;
   margin-top: 30px;
 }
 
-.containt2 p {
+.wrapper2 p {
   font-size: 17px;
   color: #bbb;
   margin-top: 16px;
@@ -136,14 +136,14 @@ button {
 
 /*division3*/
 
-.division1 h1 {
+.consequat h1 {
   color: #25a2c3;
   font-size: 21px;
   text-align: center;
   padding: 5%;
 }
 
-.division1 p {
+.consequat p {
   text-align: center;
   font-size: 17px;
   font-style: oblique;
@@ -160,14 +160,14 @@ button {
   padding-top: 30px;
 }
 
-.division2 h1 {
+.Adipiscing h1 {
   color: #25a2c3;
   font-size: 21px;
   text-align: center;
   padding: 5%;
 }
 
-.division2 p {
+.Adipiscing p {
   text-align: center;
   font-size: 17px;
   font-style: oblique;
@@ -184,14 +184,14 @@ button {
   padding-top: 30px;
 }
 
-.division3 h1 {
+.Malesuda h1 {
   color: #25a2c3;
   font-size: 21px;
   text-align: center;
   padding: 5%;
 }
 
-.division3 p {
+.Malesuda p {
   text-align: center;
   font-size: 17px;
   font-style: oblique;
@@ -209,13 +209,13 @@ button {
 }
 
 /*footer*/
-.end {
+.contact {
   background-color: #3db3e2;
   color: #f3f3f3;
   margin-top: 14%;
 }
 
-.end h1 {
+.contact h1 {
   font-style: normal;
   font-size: 21px;
   text-align: center;
