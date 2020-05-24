@@ -12,7 +12,6 @@ body {
   text-align: center;
   color: red;
   align-items: center;
-  background-size: cover;
   font-size: 35px;
   font-family: cursive;
 }
@@ -21,35 +20,29 @@ body {
   background: url(/images/banner.jpg) no-repeat;
   background-size: cover;
   background-position: center top;
-  margin-top: 10px;
   text-align: center;
-  align-items: center;
 }
 
 .banner h1 {
   color: #25a2c3;
   padding-top: 25px;
-  text-align: center;
-  align-items: center;
 }
 
 .banner p {
-  margin-top: 16px;
+  padding: 16px;
   font-family: "Courier New", Courier, monospace;
   color: #bbb;
-  padding-right: 18px;
-  padding-left: 16px;
 }
 /*button*/
 button {
-  width: 200px;
+  width: 240px;
   height: 45px;
   background-color: #ec470b;
   color: #dddbdb;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 16px;
-  border-radius: 10px;
+  border-radius: 0.5rem;
   margin-bottom: 35px;
   border: none;
 }
@@ -68,15 +61,12 @@ button {
   font-size: 17px;
   color: #bbb;
   margin-top: 16px;
-  padding-left: 18px;
-  padding-right: 18px;
+  padding: 18px;
 }
 
 .phone {
   width: 85%;
-  margin-left: 20px;
-  margin-top: 40px;
-  margin-bottom: 20px;
+  margin: 20px;
   border-radius: 100%;
 }
 
@@ -92,29 +82,26 @@ button {
   color: #bbb;
   margin-top: 16px;
   text-align: center;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 20px;
 }
 
 /*division2*/
 
 .author {
   background-color: #f7632d;
-  margin-top: 65px;
+  color: #f3f3f3;
 }
 
 .author h1 {
   font-style: normal;
   font-size: 21px;
-  color: #f3f3f3;
-  padding-top: 10%;
+  padding: 10%;
   text-align: center;
 }
 
 .author p {
   font-size: 21px;
   font-style: italic;
-  color: #fff;
   text-align: center;
   padding: 20px;
 }
@@ -122,16 +109,14 @@ button {
 .author h2 {
   font-size: 18px;
   font-style: normal;
-  color: #f3f3f3;
+  padding-top: 20px;
   text-align: center;
-  padding-top: 40px;
 }
 
 .author div {
   font-size: 13px;
-  color: #f3f3f3;
-  padding-bottom: 20px;
   text-align: center;
+  padding-bottom: 25px;
 }
 
 /*division3*/
@@ -219,8 +204,7 @@ button {
   font-style: normal;
   font-size: 21px;
   text-align: center;
-  padding-top: 10%;
-  padding-bottom: 8%;
+  padding: 10%;
 }
 
 a {
@@ -229,13 +213,12 @@ a {
 }
 
 ul li {
-  padding: 5px 2%;
+  padding: 5px;
   text-align: center;
 }
 
 .copyright {
   text-align: center;
-  color: #a7d9e7;
   font-size: 0.75em;
   border-top: 1px solid rgba(255, 255, 255, 0.25);
   padding: 20px;
