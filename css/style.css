@@ -28,10 +28,13 @@ body h1 {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.sign {
+  display: none;
+}
 .button {
   text-align: center;
 }
-button {
+.banner button {
   background-color: #ff4500;
   color: white;
 }
@@ -71,7 +74,7 @@ button {
     padding: 0px 15px 10px 15px;
     font-size: 18px;
   }
-  button {
+  .banner button {
     height: 6vh;
     width: 60vw;
     border: none;
@@ -151,7 +154,7 @@ button {
     font-size: 20px;
     padding: 5px 35px 20px 35px;
   }
-  button {
+  .banner button {
     width: 27vw;
     height: 7vh;
   }
@@ -162,7 +165,7 @@ button {
     padding: 30px 10px;
   }
   .author p {
-    padding: 0px 35px 0px 35px;
+    padding: 0px 35px;
   }
   .company {
     padding-bottom: 55px;
@@ -181,4 +184,62 @@ button {
   }
 }
 @media screen and (min-width: 1000px) {
+  .sign {
+    display: inline-flex;
+    float: right;
+    margin: 20px;
+    height: 4vh;
+    width: 6vw;
+  }
+  .logo h1 {
+    font-size: 20px;
+  }
+  .banner {
+    height: 50vh;
+  }
+  .banner h1 {
+    padding: 40px 10px 15px 15px;
+  }
+  .banner p {
+    font-size: 24px;
+    padding: 10px 65px 25px 65px;
+  }
+  .banner button {
+    width: 19vw;
+    height: 6vh;
+  }
+  .wrapper {
+    padding: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 10px;
+  }
+  .wrapper1 {
+    padding: 0px;
+    flex: 1;
+  }
+  .wrapper p {
+    font-size: 24px;
+  }
+  .author h1 {
+    padding: 45px 20px;
+  }
+  .author p {
+    padding: 0px 60px;
+  }
+  .Malesuda {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0px;
+  }
+  .consequat {
+    padding: 0px;
+    margin: 10px;
+    flex: 0.32;
+  }
+  .pic1 {
+    width: 31vw;
+  }
 }
