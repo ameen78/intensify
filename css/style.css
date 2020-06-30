@@ -1,229 +1,135 @@
 * {
-  margin: 0;
-  padding: 0;
+  padding: 0px;
+  margin: 0px;
   box-sizing: border-box;
 }
-
-body {
-  font-family: "montserrat", sans-serif;
+body p {
+  font-family: "montserrat" sans-serif;
+  text-align: center;
 }
-/*logo*/
+body h1 {
+  color: rgba(6, 136, 136, 0.973);
+  text-align: center;
+}
 .logo {
-  text-align: center;
-  color: red;
-  align-items: center;
-  font-size: 35px;
+  color: #dd4a14f1;
+  background-color: #fdfdfd;
   font-family: cursive;
-}
-/*banner*/
-.banner {
-  background: url(/images/banner.jpg) no-repeat;
-  background-size: cover;
-  background-position: center top;
-  text-align: center;
-}
-
-.banner h1 {
-  color: #25a2c3;
-  padding-top: 25px;
-}
-
-.banner p {
-  padding: 16px;
-  font-family: "Courier New", Courier, monospace;
-  color: #bbb;
-}
-/*button*/
-button {
-  width: 240px;
-  height: 45px;
-  background-color: #ec470b;
-  color: #dddbdb;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 16px;
-  border-radius: 0.5rem;
-  margin-bottom: 35px;
-  border: none;
-}
-
-/*division*/
-
-.wrapper1 h1 {
-  margin-top: 30px;
-  color: #25a2c3;
-  font-size: 21px;
-  text-align: center;
-}
-
-.wrapper1 p {
-  text-align: center;
-  font-size: 17px;
-  color: #bbb;
-  margin-top: 16px;
-  padding: 18px;
-}
-
-.phone {
-  width: 85%;
-  margin: 20px;
-  border-radius: 100%;
-}
-
-.wrapper2 h1 {
-  color: #25a2c3;
-  font-size: 21px;
-  text-align: center;
-  margin-top: 30px;
-}
-
-.wrapper2 p {
-  font-size: 17px;
-  color: #bbb;
-  margin-top: 16px;
-  text-align: center;
-  padding: 20px;
-}
-
-/*division2*/
-
-.author {
-  background-color: #f7632d;
-  color: #f3f3f3;
-}
-
-.author h1 {
-  font-style: normal;
-  font-size: 21px;
-  padding: 10%;
-  text-align: center;
-}
-
-.author p {
-  font-size: 21px;
-  font-style: italic;
-  text-align: center;
-  padding: 20px;
-}
-
-.author h2 {
-  font-size: 18px;
-  font-style: normal;
-  padding-top: 20px;
-  text-align: center;
-}
-
-.author div {
-  font-size: 13px;
-  text-align: center;
-  padding-bottom: 25px;
-}
-
-/*division3*/
-
-.consequat h1 {
-  color: #25a2c3;
-  font-size: 21px;
-  text-align: center;
-  padding: 5%;
-}
-
-.consequat p {
-  text-align: center;
-  font-size: 17px;
-  font-style: oblique;
-  font-family: "Open Sans", Arial, Helvetica, sans-serif;
-  color: #bbb;
-  padding-top: 8px;
-  padding-left: 40px;
-  padding-right: 40px;
-}
-
-.pic1 {
-  width: 95%;
-  padding-left: 20px;
-  padding-top: 30px;
-}
-
-.Adipiscing h1 {
-  color: #25a2c3;
-  font-size: 21px;
-  text-align: center;
-  padding: 5%;
-}
-
-.Adipiscing p {
-  text-align: center;
-  font-size: 17px;
-  font-style: oblique;
-  font-family: "Open Sans", Arial, Helvetica, sans-serif;
-  color: #bbb;
-  padding-top: 8px;
-  padding-right: 45px;
-  padding-left: 45px;
-}
-
-.pic2 {
-  width: 95%;
-  padding-left: 20px;
-  padding-top: 30px;
-}
-
-.Malesuda h1 {
-  color: #25a2c3;
-  font-size: 21px;
-  text-align: center;
-  padding: 5%;
-}
-
-.Malesuda p {
-  text-align: center;
-  font-size: 17px;
-  font-style: oblique;
-  font-family: "Open Sans", Arial, Helvetica, sans-serif;
-  color: #bbb;
-  padding-top: 8%;
-  padding-right: 45px;
-  padding-left: 47px;
-}
-
-.pic3 {
-  width: 95%;
-  padding-left: 20px;
-  padding-top: 30px;
-}
-
-/*footer*/
-.contact {
-  background-color: #3db3e2;
-  color: #f3f3f3;
-  margin-top: 14%;
-}
-
-.contact h1 {
-  font-style: normal;
-  font-size: 21px;
-  text-align: center;
-  padding: 10%;
-}
-
-a {
-  color: #c8e7f0;
-  text-decoration: none;
-}
-
-ul li {
   padding: 5px;
+}
+.banner {
+  background-image: url(/images/banner.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.button {
   text-align: center;
 }
-
-.copyright {
-  text-align: center;
-  font-size: 0.75em;
-  border-top: 1px solid rgba(255, 255, 255, 0.25);
-  padding: 20px;
+button {
+  background-color: #ff4500;
+  color: white;
 }
-.fas {
-  color: #f7632d;
-  padding-left: 20px;
+.wrapper1 {
+  padding: 10px;
+}
+.phone {
+  text-align: center;
+}
+.author {
+  background-color: #ed3e12;
+  color: #f5f5f5;
+}
+.author h2 {
+  text-align: center;
+}
+.company {
+  text-align: center;
+}
+.Malesuda {
+  padding: 10px;
+  text-align: center;
+}
+.contact {
+  color: #f5f5f5;
+  background-color: #2fa2cf;
+  text-align: center;
+}
+@media screen and (min-width: 320px) {
+  .banner {
+    height: 35vh;
+  }
+  .banner h1 {
+    padding: 23px 15px 10px 15px;
+  }
+  .banner p {
+    padding: 0px 15px 10px 15px;
+    font-size: 18px;
+  }
+  button {
+    height: 6vh;
+    width: 40vw;
+    border: none;
+    border-radius: 8px;
+    margin: 0px 0px 30px 0px;
+  }
+  .phone img {
+    border-radius: 200px;
+  }
+  .wrapper1 h1 {
+    padding: 20px;
+  }
+  .wrapper1 p {
+    font-size: 23px;
+    padding: 0px 10px 20px 10px;
+  }
+  .author h1 {
+    color: #f5f5f5;
+    padding: 25px 10px;
+  }
+  .author p {
+    font-size: 23px;
+    padding: 0px 15px 0px 10px;
+  }
+  .author h2 {
+    padding-top: 30px;
+  }
+  .company {
+    padding-bottom: 20px;
+    font-family: "montserrat" sans-serif;
+  }
+  .pic1 {
+    width: 80vw;
+  }
+  .consequat h1 {
+    padding: 20px 10px;
+  }
+  .consequat p {
+    font-size: 23px;
+    padding: 0px 15px 20px 20px;
+  }
+  .consequat {
+    border: 1px ridge;
+    margin: 0px 20px 10px 20px;
+    border-radius: 5px 5px 5px 5px;
+  }
+  .contact h1 {
+    color: #f5f5f5;
+    padding: 30px 10px;
+  }
+  .contact ul li {
+    padding: 10px;
+  }
+  .contact a {
+    text-decoration: none;
+    color: #f5f5f5;
+    font-family: "montserrat" sans-serif;
+  }
+  .contact i {
+    color: hsl(16, 83%, 50%);
+  }
+  .copyright {
+    padding: 25px 10px 65px 10px;
+    border-top: 0.5px ridge #b6adad;
+  }
 }
