@@ -240,12 +240,14 @@ body h1 {
     flex: 0.32;
   }
   .pic1 {
-    width: 31vw;
+    width: 30vw;
   }
   .contact {
     padding: 55px 0px 35px 0px;
   }
   .contact ul {
+    margin: 0px;
+    padding: 0px;
     display: flex;
     justify-content: space-around;
   }
@@ -253,6 +255,6 @@ body h1 {
     padding: 15px 20px;
   }
   .contact ul li a i {
-    padding: 0px 70px 25px 70px;
+    padding: 0px 90px 25px 90px;
   }
 }
