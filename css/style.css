@@ -242,4 +242,17 @@ body h1 {
   .pic1 {
     width: 31vw;
   }
+  .contact {
+    padding: 55px 0px 35px 0px;
+  }
+  .contact ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  .contact ul li {
+    padding: 15px 20px;
+  }
+  .contact ul li a i {
+    padding: 0px 70px 25px 70px;
+  }
 }
