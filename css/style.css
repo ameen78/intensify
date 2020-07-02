@@ -258,9 +258,6 @@ body h1 {
     display: flex;
     justify-content: space-evenly;
   }
-  .class {
-    text-decoration: none;
-  }
   .contact ul li {
     padding: 15px 20px;
   }
