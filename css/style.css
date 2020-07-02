@@ -206,7 +206,7 @@ body h1 {
     height: 50vh;
   }
   .banner h1 {
-    padding: 40px 10px 15px 15px;
+    padding: 40px 20px 15px 20px;
   }
   .banner p {
     font-size: 24px;
@@ -220,7 +220,7 @@ body h1 {
     padding: 0px;
     display: flex;
     justify-content: space-evenly;
-    padding: 20px 10px;
+    padding: 20px 20px;
   }
   .wrapper1 {
     padding: 0px;
@@ -263,5 +263,20 @@ body h1 {
   }
   .contact ul li a i {
     padding: 0px 90px 25px 90px;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .logo {
+    padding: 20px 15px 20px 10px;
+  }
+  .banner button {
+    width: 15vw;
+    height: 7vh;
+  }
+  .wrapper {
+    padding: 30px 20px;
+  }
+  .author {
+    padding: 50px;
   }
 }
