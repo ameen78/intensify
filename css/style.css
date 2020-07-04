@@ -258,13 +258,13 @@ body h1 {
     display: flex;
     justify-content: space-evenly;
   } */
-  .contact ul li {
+  /* .contact ul li {
     padding: 15px 20px;
   }
   .contact ul li a i {
     padding: 0px 90px 25px 90px;
   }
-}
+} */
 @media screen and (min-width: 1300px) {
   .banner {
     min-height: 59vh;
