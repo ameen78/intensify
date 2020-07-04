@@ -266,15 +266,21 @@ body h1 {
   }
 }
 @media screen and (min-width: 1300px) {
+  .banner {
+    min-height: 59vh;
+  }
   .logo {
     padding: 20px 15px 20px 10px;
   }
-  .banner button {
+  /* .banner button {
     width: 15vw;
     height: 7vh;
   }
+  .button {
+    padding: 15px 185px 28px 185px;
+  } */
   .wrapper {
-    padding: 30px 20px;
+    padding: 40px 30px;
   }
   .author {
     padding: 45px;
