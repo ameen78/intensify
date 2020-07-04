@@ -252,12 +252,12 @@ body h1 {
   .contact {
     padding: 55px 0px 35px 0px;
   }
-  .contact ul {
+  /* .contact ul {
     margin: 0px;
     padding: 0px;
     display: flex;
     justify-content: space-evenly;
-  }
+  } */
   .contact ul li {
     padding: 15px 20px;
   }
@@ -272,13 +272,13 @@ body h1 {
   .logo {
     padding: 20px 15px 20px 10px;
   }
-  /* .banner button {
+  .banner button {
     width: 15vw;
     height: 7vh;
   }
   .button {
     padding: 15px 185px 28px 185px;
-  } */
+  }
   .wrapper {
     padding: 40px 30px;
   }
