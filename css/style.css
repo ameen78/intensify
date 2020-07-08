@@ -34,16 +34,16 @@ body h1 {
 .button {
   text-align: center;
 }
-.banner button {
+/* .banner button {
   background-color: #ff4500;
   color: white;
-}
+} */
 .wrapper {
   padding: 10px 0px 40px 0px;
 }
-.phone {
+/* .phone {
   text-align: center;
-}
+} */
 .author {
   background-color: #ed3e12;
   color: #f5f5f5;
