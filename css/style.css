@@ -22,12 +22,12 @@ body h1 {
   float: left;
   padding: 10px;
 }
-.banner {
+/* .banner {
   background-image: url(/images/banner.jpg);
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 .sign {
   display: none;
 }
